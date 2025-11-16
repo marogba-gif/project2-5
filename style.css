@@ -1,0 +1,62 @@
+/* ===== Global Layout ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+/* ===== Navigation ===== */
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1rem;
+  padding: 10px 15px !important;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* ===== Sections ===== */
+section {
+  line-height: 1.7;
+}
+
+/* ===== Images ===== */
+.img-fluid {
+  border-radius: 10px;
+  transition: transform 0.25s ease-in-out;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Footer ===== */
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+/* ===== Forms ===== */
+form input, form textarea {
+  border-radius: 8px !important;
+}
+
+/* ===== Table ===== */
+table {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
